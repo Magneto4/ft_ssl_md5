@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/ft_ssl",
+      "args": ["sha256", "-s", "test"],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": ["Hello world!"],
+      "cwd": "/Users/magneto/Documents/ft_ssl_md5",
+      "program": "/Users/magneto/Documents/ft_ssl_md5/build/Debug/outDebug",
+      "preLaunchTask": "build"
+    }
+  ]
+}
